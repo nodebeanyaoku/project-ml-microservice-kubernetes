@@ -47,11 +47,11 @@ source ~/.devops/bin/activate
 
 * Setup and Configure Docker locally: AWS cloud 9 was used to setuo docker
 * Setup and Configure Kubernetes locally on linux : 
-  curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
-  sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
-* Create Flask app in Container: 'kubectl create deploy mlproject --image=$dockerpath'
+  `curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"`
+  `sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl`
+* Create Flask app in Container: `kubectl create deploy mlproject --image=$dockerpath`
 * Run via kubectl
-* Run minikube: minikube start
+* Run minikube: `minikube start`
 
 
 ### Project Files 
