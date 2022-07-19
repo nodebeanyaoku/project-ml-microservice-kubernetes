@@ -33,8 +33,8 @@ source ~/.devops/bin/activate
 ```
 * Run `make install` to install the necessary dependencies
 * install lates minikube stable release on x86-64 linux
-*curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
-sudo install minikube-linux-amd64 /usr/local/bin/minikube
+  curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+  sudo install minikube-linux-amd64 /usr/local/bin/minikube
 
 
 ### Running `app.py`
@@ -51,6 +51,7 @@ sudo install minikube-linux-amd64 /usr/local/bin/minikube
   sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 * Create Flask app in Container: 'kubectl create deploy mlproject --image=$dockerpath'
 * Run via kubectl
+* Run minikube: minikube start
 
 
 ### Project Files 
