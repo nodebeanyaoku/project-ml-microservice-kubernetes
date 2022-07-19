@@ -16,5 +16,5 @@ kubectl create deploy mlproject --image=$dockerpath
 kubectl get deploy,rs,svc,pods
 # Step 4:
 # Forward the container port to a host
-kubectl port-forward pod/mlproject-657f7b8678-6mfzt --address 0.0.0.0 8000:80
+kubectl port-forward pod/mlproject-657f7b8678-672gx  --address 0.0.0.0 8000:80
 

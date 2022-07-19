@@ -46,12 +46,14 @@ sudo install minikube-linux-amd64 /usr/local/bin/minikube
 ### Kubernetes Steps
 
 * Setup and Configure Docker locally: AWS cloud 9 was used to setuo docker
-* Setup and Configure Kubernetes locally on linux : "curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+* Setup and Configure Kubernetes locally on linux : 
+  curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+  sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 * Create Flask app in Container: 'kubectl create deploy mlproject --image=$dockerpath'
 * Run via kubectl
 
 
-### Prject Files 
+### Project Files 
 
 * docker_out.txt: Terminal output which has log info after running prediction to docker container
 * kubernetes_out.txt: Terminal output which has log info after running prediction to kubernetes cluster
