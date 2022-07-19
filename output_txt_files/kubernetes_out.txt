@@ -1,0 +1,15 @@
+Docker ID and Image: nodebe/mlproject
+error: failed to create deployment: deployments.apps "mlproject" already exists
+NAME                        READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/mlproject   1/1     1            1           15m
+
+NAME                                   DESIRED   CURRENT   READY   AGE
+replicaset.apps/mlproject-657f7b8678   1         1         1       15m
+
+NAME                 TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
+service/kubernetes   ClusterIP   10.96.0.1    <none>        443/TCP   37m
+
+NAME                             READY   STATUS    RESTARTS   AGE
+pod/mlproject-657f7b8678-6mfzt   1/1     Running   0          15m
+Forwarding from 0.0.0.0:8000 -> 80
+Handling connection for 8000
