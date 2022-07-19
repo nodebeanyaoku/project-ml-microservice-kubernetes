@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/nodebeanyaoku/project-ml-microservice-kubernetes/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/nodebeanyaoku/project-ml-microservice-kubernetes/tree/master)
 
 ## Project Overview
 
@@ -50,4 +50,3 @@ source .devops/bin/activate
 * Run via kubectl
 
 
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/nodebeanyaoku/project-ml-microservice-kubernetes/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/nodebeanyaoku/project-ml-microservice-kubernetes/tree/master)
