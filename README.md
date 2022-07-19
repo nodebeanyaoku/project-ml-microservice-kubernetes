@@ -51,18 +51,18 @@ sudo install minikube-linux-amd64 /usr/local/bin/minikube
 * Run via kubectl
 
 
-### files 
+### Prject Files 
 
-docker_out.txt: Terminal output which has log info after running prediction to docker container
-kubernetes_out.txt: Terminal output which has log info after running prediction to kubernetes cluster
-config.yml: Circeci config yaml file
-app.py: Flask script
-Dockerfile: The Dockerfile contains all the commands used to build and run a docker image
-make_prediction.sh: The source code is responsible for passing data through a trained, machine learning model, and giving back a predicted value for the house price.
-Makefile: This is used test software, install software, build scripts, collect and run taaks
-requirements.txt: conatins the libraries of install dependencies
-run_docker.sh: To run and build a docker image
-run_kubernetes.sh: To deploy application using kubectl
-upload_docker.sh: upload your built image to docker
+* docker_out.txt: Terminal output which has log info after running prediction to docker container
+* kubernetes_out.txt: Terminal output which has log info after running prediction to kubernetes cluster
+* config.yml: Circeci config yaml file
+* app.py: Flask script
+* Dockerfile: The Dockerfile contains all the commands used to build and run a docker image
+* make_prediction.sh: The source code is responsible for passing data through a trained, machine learning model, and giving back a predicted value for the house price.
+* Makefile: This is used test software, install software, build scripts, collect and run taaks
+* requirements.txt: conatins the libraries of install dependencies
+* run_docker.sh: To run and build a docker image
+* run_kubernetes.sh: To deploy application using kubectl
+* upload_docker.sh: upload your built image to docker
 
 
